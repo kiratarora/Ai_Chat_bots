@@ -67,7 +67,7 @@
             event.preventDefault();
             
             const prompt = document.getElementById('prompt').value;
-            message = JSON.stringify({ chatID: randomNum, prompt: prompt, chat_history: chat_history })
+            message = JSON.stringify({ chatID: randomNum, prompt: prompt})
             fetch('http://127.0.0.1:5000/chat', {
                 method: 'POST',
                 headers: {

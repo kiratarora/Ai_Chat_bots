@@ -20,11 +20,23 @@
         "AI: That sounds like a delicious idea! Do you have a specific sweet treat in mind, or are you looking for some suggestions?"
     ],
     "6556532689426123": [
-        "User: I am thinking of eating something sweet",
-        "AI: That sounds like a delicious idea! Do you have a particular sweet treat in mind, or are you looking for some suggestions?"
-    ],
-    "6556532689426123": [
         "User: what was my last question",
         "AI: Your last question was, \"I am thinking of eating something sweet.\""
+    ],
+    "1234567890123456": [
+        "User: Tell me how",
+        "AI: To have LangSmith help test your LLM applications, you can reach out to them and share the details of your project. They will likely provide you with the necessary instructions and guidelines to proceed with the testing. Be sure to communicate your requirements clearly to ensure effective testing of your applications.",
+        "User: is there anything else I can do too?",
+        "AI: You can also reach out to LangSmith for assistance with any other questions or support you may need during the testing process.",
+        "User: What was my previous question?",
+        "AI: Your previous question was \"is there anything else I can do too?\""
+    ],
+    "9495248833519074": [
+        "User: I am thinking of eating something sweet",
+        "AI: That sounds like a delicious idea! Do you have any specific cravings or preferences for something sweet, like chocolate, ice cream, or pastries?",
+        "User: What do you suggest is better Ice cream or chocolate? ",
+        "AI: It really depends on your personal preference! If you enjoy something cold, creamy, and refreshing, then ice cream might be the way to go. On the other hand, if you're in the mood for something rich, decadent, and indulgent, then chocolate could be the perfect choice. Why not try both and satisfy all your cravings?",
+        "User: Give me nutritional facts about them",
+        "AI: Ice cream and chocolate have different nutritional profiles. Here are some general facts about each:\n\nIce Cream:\n- Ice cream is typically high in sugar and fat, which can contribute to a high calorie content.\n- It can be a good source of calcium and protein, especially if it's made with dairy.\n- Some ice creams may also contain added ingredients like fruit, nuts, or chocolate chips, which can impact the overall nutritional value.\n\nChocolate:\n- Dark chocolate with a high cocoa content (70% or more) is known for its antioxidant properties and potential health benefits.\n- Chocolate is a source of flavonoids, which are beneficial plant compounds that may have heart health benefits.\n- However, chocolate can also be high in sugar and fat, so it's best enjoyed in moderation.\n\nRemember, it's important to enjoy these treats in moderation as part of a balanced diet."
     ]
 }

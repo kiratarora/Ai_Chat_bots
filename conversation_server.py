@@ -24,14 +24,13 @@ def chat():
     data = request.json
     chatID = data.get('chatID')
     prompt = data.get('prompt')
-    chat_history = data.get('chat_history')
 
 
     if not prompt:
         return jsonify({"error": "No prompt provided"}), 400
 
     
-    response = respond_to_prompt(chatID, chat_history, prompt)
+    response = respond_to_prompt(chatID, prompt)
     return jsonify({"response": response})
 
 @app.route('/retival', methods=['POST'])
