@@ -59,7 +59,6 @@ Users can interact with the Conversation Bot through an API. The API requires a 
         "api_key": "your_api_key",
         "chatID": "your_chat_id",
         "prompt": "your_prompt",
-        "chat_history": ["previous_message_1", "previous_message_2"]
     }
     ```
 ## Future Work
@@ -109,11 +108,11 @@ Users can interact with the Conversation Bot through an API. The API requires a 
     ```
 
 4. **Set up environment variables**:
-    - Create a `.env` file and add necessary environment variables (e.g., OpenAI API key).
+    - Create a `.env` file and add necessary environment variables (OpenAI API key, and Tavily API key).
 
 5. **Run the Flask server**:
     ```sh
-    flask run
+    python conversation_server.py
     ```
 
 6. **Access the front-end**:
