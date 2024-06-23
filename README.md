@@ -47,7 +47,22 @@ The PDF Bot loads, indexes, and queries data from PDFs to answer user queries. I
 
 ## API Usage
 
-Users can interact with the Conversation Bot through an API. The API requires a `chatID` (16-digit integer), a prompt, and an optional chat history. Here's how to use the API:
+Users can interact with the Conversation Bot through an API. The API requires a `chatID` (16-digit integer), a prompt, and an optional chat history.
+
+Once the server is online, you can use the `chat` funtion in the `chat_bot_api` file to use the API. Here is the usage: 
+
+```
+    This function is used to chat with the LLM maintaining the chat history.
+    
+    Parameters: 
+        id (16 digit int): This is the chat ID.
+        question (str): The user prompt.
+    
+    Returns:
+        str: AI's response to the chat. 
+```
+
+#### Workings:
 
 1. **Endpoint**: `/chat`
 2. **Method**: POST

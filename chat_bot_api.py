@@ -4,8 +4,13 @@ import json
 def chat(id, question):
     """
     This function is used to chat with the LLM maintaining the chat history.
-    In its current form, the user needs to maintain and pass the chat history themselves,
-    but in a later update, the user will only need to pass the chat_id.
+    
+    Parameters: 
+        id (16 digit int): This is the chat ID.
+        question (str): The user prompt.
+    
+    Returns:
+        str: AI's response to the chat. 
     """
     
     # Create the message payload
