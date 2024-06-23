@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LLM Text</title>
+    <title>LLM Practice</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,19 +13,73 @@
             justify-content: center;
             height: 100vh;
             margin: 0;
+            background-color: #f4f4f4;
         }
-        button {
-            margin: 10px;
+        h1 {
+            margin-bottom: 30px;
             padding: 10px 20px;
+            background: linear-gradient(135deg, #007BFF, #00D4FF);
+            color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        h1:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .module {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        .module p {
+            margin: 10px 0;
+        }
+        .module button {
+            width: 100%;
+            padding: 10px;
             font-size: 16px;
             cursor: pointer;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .module button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
     <h1>LLM Practice</h1>
-    <button onclick="location.href='conversation_bot_frontend.html'">Go to Conversastion Bot</button>
-    <button onclick="location.href='retrival_bot.html'">Go to Retrieval Bot</button>
-    <button onclick="location.href='pdf_bot.html'">Go to PDF Bot</button>
+    <div class="container">
+        <div class="module">
+            <h2>Conversation Bot</h2>
+            <p>A simple bot that uses OpenAI's GPT-3.5 to generate content-aware responses, keeping track of the conversation history.</p>
+            <button onclick="location.href='conversation_bot_frontend.html'">Go to Conversation Bot</button>
+        </div>
+        <div class="module">
+            <h2>Retrieval Bot</h2>
+            <p>This bot uses various tools to fetch and provide answers from online resources, including web scraping and API integration.</p>
+            <button onclick="location.href='retrival_bot.html'">Go to Retrieval Bot</button>
+        </div>
+        <div class="module">
+            <h2>PDF Bot</h2>
+            <p>A bot that accepts, indexes, and queries data from PDFs using LlamaIndex to give relevant answers from the documents.</p>
+            <button onclick="location.href='pdf_bot.html'">Go to PDF Bot</button>
+        </div>
+    </div>
 </body>
 </html>
